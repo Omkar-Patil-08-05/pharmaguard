@@ -1,0 +1,30 @@
+PHARMAGUARD DATASET VALIDATION REPORT
+============================================================
+
+Dataset Shape: (180519, 20)
+
+Missing Values
+batch_id                  0
+shipment_id               0
+manufacturer              0
+distributor               0
+source_city               0
+destination_city          0
+source_country            0
+destination_country       0
+shipment_date             0
+delivery_date             0
+transit_time              0
+scheduled_transit_time    0
+distance                  0
+temperature               0
+warehouse_stops           0
+quantity                  0
+shipping_mode             0
+delivery_status           0
+late_delivery_risk        0
+order_status              0
+dtype: int64
+
+Duplicate Batch IDs: 0
+Duplicate Shipment IDs: 0
