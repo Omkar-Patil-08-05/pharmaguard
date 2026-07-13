@@ -1,0 +1,21 @@
+Column,Missing Values,Percentage
+batch_id,0,0.0
+shipment_id,0,0.0
+manufacturer,0,0.0
+distributor,0,0.0
+source_city,0,0.0
+destination_city,0,0.0
+source_country,0,0.0
+destination_country,0,0.0
+shipment_date,0,0.0
+delivery_date,0,0.0
+transit_time,0,0.0
+scheduled_transit_time,0,0.0
+distance,0,0.0
+temperature,0,0.0
+warehouse_stops,0,0.0
+quantity,0,0.0
+shipping_mode,0,0.0
+delivery_status,0,0.0
+late_delivery_risk,0,0.0
+order_status,0,0.0

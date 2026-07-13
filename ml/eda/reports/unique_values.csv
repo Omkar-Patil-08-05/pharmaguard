@@ -1,0 +1,21 @@
+Column,Unique Values
+batch_id,180519
+shipment_id,180519
+manufacturer,8
+distributor,6
+source_city,3597
+destination_city,563
+source_country,164
+destination_country,2
+shipment_date,65752
+delivery_date,63701
+transit_time,7
+scheduled_transit_time,4
+distance,1277
+temperature,228
+warehouse_stops,3
+quantity,5
+shipping_mode,4
+delivery_status,4
+late_delivery_risk,2
+order_status,9

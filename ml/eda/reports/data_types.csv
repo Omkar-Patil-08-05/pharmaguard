@@ -1,0 +1,21 @@
+Column,Data Type
+batch_id,object
+shipment_id,object
+manufacturer,object
+distributor,object
+source_city,object
+destination_city,object
+source_country,object
+destination_country,object
+shipment_date,object
+delivery_date,object
+transit_time,int64
+scheduled_transit_time,int64
+distance,int64
+temperature,float64
+warehouse_stops,int64
+quantity,int64
+shipping_mode,object
+delivery_status,object
+late_delivery_risk,int64
+order_status,object
