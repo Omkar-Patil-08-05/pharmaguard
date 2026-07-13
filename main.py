@@ -72,6 +72,31 @@ def main():
 
             train_if()
 
+        elif args.model == "local_outlier_factor":
+
+            from ml.models.train_local_outlier_factor import (
+                main as train_lof
+            )
+
+            train_lof()
+
+        elif args.model == "one_class_svm":
+
+            from ml.models.train_one_class_svm import (
+                main as train_ocsvm
+            )
+
+            train_ocsvm()
+
+        elif args.model == "autoencoder":
+
+            from ml.models.train_autoencoder import (
+                main as train_autoencoder
+            )
+
+            train_autoencoder()
+        
+
         else:
 
             print(f"{args.model} coming soon.")

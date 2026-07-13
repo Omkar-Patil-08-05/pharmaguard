@@ -108,3 +108,54 @@ ISOLATION_FOREST_SUMMARY = (
     / "reports"
     / "isolation_forest_summary.md"
 )
+
+LOCAL_OUTLIER_FACTOR_MODEL = MODEL_DIR / "local_outlier_factor.pkl"
+
+LOCAL_OUTLIER_FACTOR_RESULTS = (
+    PROJECT_ROOT
+    / "docs"
+    / "reports"
+    / "local_outlier_factor_predictions.csv"
+)
+
+LOCAL_OUTLIER_FACTOR_SUMMARY = (
+    PROJECT_ROOT
+    / "docs"
+    / "reports"
+    / "local_outlier_factor_summary.md"
+)
+
+ONE_CLASS_SVM_MODEL = MODEL_DIR / "one_class_svm.pkl"
+
+ONE_CLASS_SVM_RESULTS = (
+    PROJECT_ROOT
+    / "docs"
+    / "reports"
+    / "one_class_svm_predictions.csv"
+)
+
+ONE_CLASS_SVM_SUMMARY = (
+    PROJECT_ROOT
+    / "docs"
+    / "reports"
+    / "one_class_svm_summary.md"
+)
+
+AUTOENCODER_MODEL = (
+    MODEL_DIR
+    / "autoencoder.keras"
+)
+
+AUTOENCODER_RESULTS = (
+    PROJECT_ROOT
+    / "docs"
+    / "reports"
+    / "autoencoder_predictions.csv"
+)
+
+AUTOENCODER_SUMMARY = (
+    PROJECT_ROOT
+    / "docs"
+    / "reports"
+    / "autoencoder_summary.md"
+)
